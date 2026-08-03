@@ -1,0 +1,5 @@
+import Header from "../../components/Header";
+import Footer from "../../components/Footer";
+import PageHero from "../../components/PageHero";
+export const metadata = { title: "Training Programs" };
+export default function Page(){return <main><Header/><PageHero eyebrow="Learn for employability" title="Training Programs" description="Practical IT and non-IT programs designed around workplace requirements and interview readiness."/><section className="section"><div className="container prose-grid"><article><h2>IT programs</h2><p>Cloud and DevOps, software development, data and analytics, cybersecurity, software testing, technical support and other role-aligned programs.</p></article><article><h2>Non-IT programs</h2><p>Hospitality, operations, retail, sales, administration, logistics, customer service and workplace communication.</p></article><article><h2>Career readiness</h2><p>Resume writing, LinkedIn positioning, mock interviews, communication training and international opportunity preparation.</p></article></div></section><Footer/></main>}

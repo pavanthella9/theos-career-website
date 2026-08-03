@@ -1,0 +1,5 @@
+import Header from "../../components/Header";
+import Footer from "../../components/Footer";
+import PageHero from "../../components/PageHero";
+export const metadata = { title: "About THEOS" };
+export default function Page(){return <main><Header/><PageHero eyebrow="Who we are" title="About THEOS" description="A career consulting and training partner focused on practical employability and responsible placement assistance."/><section className="section"><div className="container prose-grid"><article><h2>Our mission</h2><p>To help candidates develop relevant skills, make informed career decisions and access suitable opportunities in India, Singapore and Malaysia.</p></article><article><h2>Our approach</h2><p>We combine counselling, industry-focused training, profile preparation, screening and employer engagement. We do not make unrealistic job guarantees.</p></article><article><h2>Who we support</h2><p>Students, freshers, working professionals, career changers and employers seeking trained candidates.</p></article></div></section><Footer/></main>}

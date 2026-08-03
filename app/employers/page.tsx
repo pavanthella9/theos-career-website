@@ -1,0 +1,5 @@
+import Header from "../../components/Header";
+import Footer from "../../components/Footer";
+import PageHero from "../../components/PageHero";
+export const metadata = { title: "Employer Partnerships" };
+export default function Page(){return <main><Header/><PageHero eyebrow="Hire with confidence" title="Employer Partnerships" description="Candidate sourcing, screening, training coordination and recruitment support for IT and non-IT hiring."/><section className="section"><div className="container prose-grid"><article><h2>Recruitment support</h2><p>Share your job description, experience range, skill requirements, location and hiring timeline. We will identify and screen relevant candidates.</p></article><article><h2>Train-and-hire</h2><p>For recurring requirements, we can align candidate training with your role expectations before interview shortlisting.</p></article><article><h2>Markets</h2><p>We support employer relationships in India, Singapore and Malaysia while respecting local recruitment and employment regulations.</p></article></div></section><Footer/></main>}

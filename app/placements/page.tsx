@@ -1,0 +1,5 @@
+import Header from "../../components/Header";
+import Footer from "../../components/Footer";
+import PageHero from "../../components/PageHero";
+export const metadata = { title: "Placement Assistance" };
+export default function Page(){return <main><Header/><PageHero eyebrow="Prepare. Apply. Progress." title="Placement Assistance" description="A structured process to improve your readiness and connect you with suitable employer opportunities."/><section className="section"><div className="container prose-grid"><article><h2>Our process</h2><p>Assessment, skill-gap review, training recommendation, resume preparation, interview practice, job matching and employer introductions.</p></article><article><h2>What placement assistance means</h2><p>We help you prepare and apply for relevant openings. Selection remains subject to employer requirements, interviews, eligibility and applicable immigration rules.</p></article><article><h2>Countries covered</h2><p>India, Singapore and Malaysia, depending on profile suitability and available vacancies.</p></article></div></section><Footer/></main>}
